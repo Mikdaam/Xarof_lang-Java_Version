@@ -1,0 +1,21 @@
+package com.lang.xarof;
+
+public enum TokenType {
+	// Single-character tokens..
+	LEFT_PARENTHESE, RIGHT_PARENTHESE, LEFT_BRACE, RIGHT_BRACE,
+	COMMA, DOT, MINUS, PLUS, SEMICOLON, SLASH, STAR,
+	
+	// One or two character tokens...
+	BANG, BANG_EQUAL,
+	EQUAL, EQUAL_EQUAL,
+	GREATER, GREATER_EQUAL,
+	LESS, LESS_EQUALS,
+	
+	// Literals.
+	IDENTIFIER, STRING, NUMBER,
+	
+	// Keywords,
+	AND, CLASS, ELSE, TRUE, FALSE, IF, FUN, FOR, NIL, OR,
+	PRINT, INPUT, RETURN, SUPER, THIS, VAR, WHILE,
+	EOF
+}
